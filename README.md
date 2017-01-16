@@ -6,26 +6,26 @@ applied to the traveling salesman problem.
 ## How to compile the project?
 
 First, create a build directory
-`
+```
 $ mkdir build
 $ cd build
-`
+```
 
 Run cmake
-`
+```
 $ cmake -DCMAKE_BUILD_TYPE=Release ..
-` 
+```
 
 Run make
-`
+```
 $ make
-`
+```
 
 The executable is located in the bin/ subdirectory and is named "sa". Run the 
 program as follows
-`
+```
 $ ./sa
-`
+```
 
 ## How do I change the parameters?
 
@@ -51,14 +51,15 @@ line shows the current state.
 
 ## Resources
 
-[1] http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/tsp/
-[2] http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/STSP.html
-[3] D. Bertsimas and J. Tsitsiklis. Simulated Annealing. Statistical Science Vol. 8
-    No. 1, pages 10-15,1993
-[4] D. Stroock. An Introduction to Markov Processes. Graduate texts in mathematics, 
-    Springer, 2005. 
-[5] C. Geyer. Markov Chain Monte Carlo Lecture Notes. 
-    http://www.stat.umn.edu/geyer/f05/8931/n1995.pdf
+[1]: http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/tsp/
+
+[2]: http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/STSP.html
+
+[3]: D. Bertsimas and J. Tsitsiklis. Simulated Annealing. Statistical Science Vol. 8 No. 1, pages 10-15, 1993
+
+[4]: D. Stroock. An Introduction to Markov Processes. Graduate texts in mathematics,  Springer, 2005. 
+
+[5]: C. Geyer. Markov Chain Monte Carlo Lecture Notes. http://www.stat.umn.edu/geyer/f05/8931/n1995.pdf
 
 # License
 
