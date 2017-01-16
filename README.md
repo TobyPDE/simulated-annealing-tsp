@@ -40,6 +40,9 @@ generated. However, you can test different datasets from the LIBTSP repository [
 Simply provide the filename of the .tsp file as the first argument. You 
 almost surely have to adjust the parameters in order to get a good approximation.
 
+You can use [berlin52.tsp](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/berlin52.tsp.gz) 
+for a quick test. The example should run well without needing to adjust the parameters.
+
 You can compare your results (using your parameters settings) to the optimal result [2]. 
 
 The program only works with instances of type TSP and edge weight type EUC_2D. 
@@ -51,7 +54,7 @@ line shows the current state.
 
 ## Resources
 
-[1]: http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/tsp/
+[1]: http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/
 
 [2]: http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/STSP.html
 
