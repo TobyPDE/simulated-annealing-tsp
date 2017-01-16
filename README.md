@@ -3,7 +3,7 @@
 This code shows how the simulated annealing optimization algorithm can be 
 applied to the traveling salesman problem.
 
-<img src="http://geekstack.net/tsp.gif" width="450" />
+<img src="http://geekstack.net/tsp.gif"/>
 
 ## How to compile the project?
 
